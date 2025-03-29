@@ -1,0 +1,14 @@
+name: curl_dio_logger_interceptor
+description: "convert dio request to curl command."
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=2.18.0 <4.0.0'
+
+dependencies:
+  dio: ^5.8.0+1
+dev_dependencies:
+  
+
+
