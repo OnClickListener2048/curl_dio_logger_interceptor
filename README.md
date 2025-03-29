@@ -1,7 +1,6 @@
 # curl_dio_logger_interceptor
 
-[![Pub](https://img.shields.io/pub/v/dio.svg)](https://pub.dev/packages/dio)
-[![Dev](https://img.shields.io/pub/v/dio.svg?label=dev&include_prereleases)](https://pub.dev/packages/dio)
+[![Pub](https://img.shields.io/pub/v/dio.svg)](https://pub.dev/packages/curl_dio_logger_interceptor)
 
 Language: English | [简体中文](README-ZH.md)
 
