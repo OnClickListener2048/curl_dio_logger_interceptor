@@ -4,7 +4,7 @@ import 'package:dio/dio.dart';
 void main() async {
   Dio dio = Dio();
   dio.interceptors.add(CurlDioLoggerInterceptor(
-      needResponseHeader: true, extraParams: ['--insecure',"-L","-u 'bob:12345'","-v"]));
+      needResponseHeader: true));
 
   try {
     // 示例 GET 请求

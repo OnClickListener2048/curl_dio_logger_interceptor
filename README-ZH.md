@@ -14,6 +14,7 @@ Convert dio request into a cURL command.
 Add the `curl_dio_logger_interceptor` package to your
 [pubspec dependencies](https://pub.dev/packages/dio/install).
 
+
 ### Super simple to use
 
 ```dart

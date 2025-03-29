@@ -1,7 +1,7 @@
 name: curl_dio_logger_interceptor
 description: "convert dio request to curl command."
 version: 0.0.1
-homepage:
+homepage: https://github.com/OnClickListener2048/curl_dio_logger_interceptor
 
 environment:
   sdk: '>=2.18.0 <4.0.0'
