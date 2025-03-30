@@ -4,21 +4,27 @@
 
 Language: English | [简体中文](README-ZH.md)
 
-Convert dio request into a cURL command.
+将dio请求转换成cURL命令。
 
-## Get started
+## 开始使用
 
-### Install
+### 安装
 
-Add the `curl_dio_logger_interceptor` package to your
+添加 `curl_dio_logger_interceptor` 包到你的
 [pubspec dependencies](https://pub.dev/packages/curl_dio_logger_interceptor/install).
 
 
-### Super simple to use
+### 超级简单的使用方式
 
 ```dart
-import 'package:curl_dio_logger_interceptor/curl_dio_logger_interceptor.dart';
-Dio dio = Dio();
-dio.interceptors.add(CurlDioLoggerInterceptor(
-needResponseHeader: true));
+    import 'package:curl_dio_logger_interceptor/curl_dio_logger_interceptor.dart';
+    Dio dio = Dio();
+    dio.interceptors.add(CurlDioLoggerInterceptor(
+        needResponseHeader: true));
+    ))
+```
+### 之后你会得到类似这个的输出
+    
+```dart
+    curl -X GET "https://httpbin.org/get?name=watson&foo=bar" -i --header "key1: value1" --header "key2: value2" --header "key3: value3"
 ```
